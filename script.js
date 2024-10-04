@@ -1,11 +1,12 @@
 //your JS code here. If required.
 
-let output = document.querySelector("#level");
 
-let lvl = 0;
+let element = document.querySelector("#level");
+
+let level = 0;
 while (element) {
-	lvl++
-	element = element.parseElement;
+    level++;
+    element = element.parentElement;
 }
 
-alert('The level of the element is' + lvl)
+alert("The level of the element is: " + level);
