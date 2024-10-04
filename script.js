@@ -3,10 +3,10 @@
 
 let element = document.querySelector("#level");
 
-let level = 0;
+let lvl = 0;
 while (element) {
-    level++;
+    lvl++;
     element = element.parentElement;
 }
 
-alert("The level of the element is: " + level);
+alert("The level of the element is: " + lvl);
